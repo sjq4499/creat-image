@@ -1,21 +1,17 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<!--
+ * @Descripttion: 
+ * @Author: sjq
+ * @Date: 2021-12-07 13:55:53
+ * @LastEditors: sjq
+ * @LastEditTime: 2021-12-07 15:57:56
+-->
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <h2>图片</h2>
+  <Upload></Upload>
 </template>
+<script setup>
+import Upload from "./views/upload.vue";
+</script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
